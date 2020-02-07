@@ -1,0 +1,202 @@
+*{
+    font-family: Helvetica, Arial, 'Times New Roman';
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+}
+
+#container{
+	width: 1100px;
+	height: 1200px;
+    background-color: rgb(209, 209, 209);
+    margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#banner{
+    width: auto;
+    height: auto;
+    padding: 1px;
+    background-color: rgb(168, 168, 168);
+}
+
+#gato{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 6px;
+    float: left;
+
+}
+ 
+h1{
+    font-size: 25px;
+	text-align: center;
+}
+
+#anteriorBoton{
+    text-decoration: none;
+    width: 72px;
+    height: 72px;
+    border-style: none;
+
+   background-color: rgb(209, 209, 209);
+    background-image: url(images/fish.png);
+}
+
+#siguienteBoton{
+    width: 72px;
+    height: 72px;
+    border-style: none;
+
+   background-color: rgb(209, 209, 209);
+
+    background-image: url(images/fish2.png);
+
+}
+
+
+#content{
+    width: 900px;
+    height: 500px;
+    border: black 1px solid;
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: 100px;
+   }
+
+#fact{
+    width: 110%;
+    height: auto;
+    border: rgb(197, 9, 9) 1px solid;
+    margin-left: -50px; 
+    background-color: rgb(139, 139, 139);
+    margin-top: 180px;
+    
+}
+
+#factContent{
+    text-align: center;
+    padding: 1px;
+}
+
+#user{
+    /*VER COMO MOVERLO HACIA LA DERECHA*/
+    margin-left: 800px;
+}
+
+
+
+#interaccionUsuario{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  /*  border: black 1px solid;
+   */ 
+}
+
+#botonAdd{
+    background-color: rgb(209, 209, 209);
+
+    border-style: none;
+    width: 72px;
+    height: 72px;
+    background-image: url(images/add.png);   
+}
+
+#sendBoton{
+    background-color: rgb(209, 209, 209);
+    background-repeat: no-repeat;
+    border-style: none;
+    width: 48px;
+    height: 48px;
+    background-image: url(images/send.png);   
+}
+
+
+
+#botonAdd:hover{
+    opacity: .8;
+    display: inline-block;
+}
+
+#agregarHechoPantalla{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -80px;
+  /*  border: black 1px solid;*/
+}
+
+#siguienteBoton{
+  float: right;;
+}
+
+
+footer{
+    width: auto;
+    height: 250px;
+    background-color: rgb(139, 139, 139);;
+}
+
+#sub{
+    padding-top: 50px;
+    font-family: Helvetica;
+    list-style: none;
+text-align: center;
+}
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px){
+
+	#container{
+		width: 580px;
+		height: 1000px;
+	}
+
+	header{
+		width: 580px;
+		z-index: 1;
+	}
+
+	#banner{
+		width: 580px;
+		position: fixed;
+		z-index: 1;
+		float: left;
+    }
+
+        
+    #gato{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 6px;
+        float: left;
+    
+    }
+
+
+    @media handheld, screen and (max-width: 599px){ /*Valor inferior continuo*/
+	
+        #container{
+            width: 480px;
+            height: auto;
+        }
+    
+        header{
+            width: 480px;
+            z-index: 1;
+        }
+    
+        #banner{
+            width: 100%;
+            position: unset;
+            z-index: 1;
+            float: left;

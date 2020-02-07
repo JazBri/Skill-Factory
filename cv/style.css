@@ -1,0 +1,315 @@
+*{
+    font-family: 'Courier New', Courier, monospace
+}
+
+body{
+    background-color: rgb(216, 216, 216);
+}
+
+#content{
+    width: 1200px;
+    height: 1300px;
+    margin-top: 50px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+#banner{
+    margin-top: 50px;
+    z-index: 1;
+    width: 1090%0%;
+    height: 60px;
+    background-color: rgb(143, 138, 143);
+    position: relative;
+}
+
+#bannerText {
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 30px;
+}
+
+#columns{
+    background-color: rgb(173, 167, 179);
+    float: left;
+    width: 260px;
+    height: 1240px;
+}
+
+ul.list{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    
+
+}
+
+
+ul.list li{
+    display: block;
+    /*width: 260px;
+    height: 260px;
+*/
+}
+
+ul.list li a{
+    height:260px;
+    width: 260px;
+    margin: -20px;
+    transform: scale(0.6);
+    display: block;
+}
+
+
+
+.list li a:hover{
+    transform: scale(0.9);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+h3{
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: -40px;
+    font-weight: lighter;
+    opacity: 50%;
+}
+
+h2{
+    font-weight: bold;
+    margin-top: 15%;
+    text-align: center;
+    opacity: 80%;
+}
+
+#centralText1, #centralText2, #contactText, #skillText{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+
+
+.personalList, .contactList, .skillList{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+
+.personalList li, .contactList li{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.skillList li{
+    display: inline-block;
+    margin: 25px;
+}
+
+#pListBold, #pListBold1, #pListBold2, #pListBold3, #cListBold, #cListBold1, #cListBold2, #cListBold3, #sListBold, #sListBold1, #sListBold2, #sListBold3{ 
+    font-weight: bold   ;
+    text-align: center;
+}
+
+
+#contact, #personalInfo, #skill{
+    margin-top: 100px;
+}
+
+footer{
+    
+    margin:auto;
+    padding: 0;
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(173, 167, 179); background-color: rgb(173, 167, 179);
+}
+
+#foot{
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-right: 200px;
+}
+
+#footSkill{
+    margin-top: 500px;
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+#footContact{
+    margin-top: 500px;
+    padding-top: 100px;
+    margin-right: 200px;
+}
+
+/*
+*
+*
+*
+*
+*
+*
+*
+/
+/*----------------------CSS 1----------------------*/
+@media handheld, screen and (min-width: 600px) and (max-width: 1250px){
+    
+    #content{
+
+        width: 580px;
+        height: 1300px;
+    }
+
+    #columns{
+ 
+        width: 200px;
+        height: 1240px;
+    }
+
+    ul.list li a{
+
+        margin: -40px;
+        transform: scale(0.5);
+    }
+    
+    .list li a:hover{
+
+        transform: scale(0.7);
+    }
+
+    #centralText1, #centralText2, #contactText{
+        
+        text-align: center;
+        margin: auto;   
+    }
+   
+    footer{
+    
+        margin:auto;
+        padding: 0;
+        width: 580px;
+        height: 200px;
+        background-color: rgb(173, 167, 179); background-color: rgb(173, 167, 179);
+    }
+    
+    #foot{
+        
+        margin-top: 200px;
+        padding-top: 100px;
+        margin-right: 200px;
+    }
+    
+    #footSkill{
+
+        margin-top: 190px;
+        padding-top: 100px;
+        margin-left: 50px;    
+    }
+    
+    #footContact{
+        
+        margin-top: 500px;
+        padding-top: 100px;
+        margin-right: 200px;
+    }
+}
+/*
+*
+*
+*
+*
+*
+**
+*
+*
+*/
+/*------------------------CSS2--------------------*/
+
+@media handheld, screen and (max-width: 599px){ 
+    #content{
+        
+        position: relative;   
+        width:480px ;
+        height: 1500px;
+    }
+
+    #columns{
+
+        margin-top: 1000px;
+        padding-top: 10px;
+        position: absolute;
+        width: 480px;
+        height: 500px;
+        display: inline-block;
+        bottom: 0;
+        
+    }
+
+    ul.list li{
+
+        display: inline-block;
+    }
+    
+    ul.list li a{
+
+        margin: -20px;
+        transform: scale(0.5);
+        
+    }
+    
+    .list li a:hover{
+
+        transform: scale(0.6);
+    }
+
+    #centralText1, #centralText2, #contactText{
+
+        text-align: center;
+          margin: 20px;
+       }
+   
+    footer{
+    
+        margin:auto;
+        padding: 0;
+        width: 480px;
+        height: 200px; 
+        background-color: rgb(173, 167, 179); background-color: rgb(173, 167, 179);
+    }
+    
+    #foot{
+
+        margin-top: 690px;
+        padding-top:100px;
+        margin-right: 10px;
+    }
+    
+    #footSkill{
+
+        margin-top: 400px;
+        padding-top: 100px;
+        margin-right: 30px;        
+    }
+    
+    #footContact{
+
+        margin-top: 900px;
+        padding-top: 60px;
+        margin-right: 30px;
+    }
+}

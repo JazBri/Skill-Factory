@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="API cat fact"/>
+	<meta name="keywords" content="API, cat, fact"/>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0, maximun-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cat Facts API</title>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" type="images/png" href="images/favicon.png"/>
+</head>
+<body>
+    <section id="container">
+        <header>
+            <nav id="banner">
+                <a href="index.html" id="gato"><img src="images/nav.png"></a>
+                
+                    <h1>Cat Facts </h1>
+            </nav>
+        </header>
+        <button type="button"  onclick="inicio()" id="anteriorBoton"> </button>                 
+        <button type="button"  onclick="inicio()" ssc id="siguienteBoton"> </button> 
+        
+        <div id="content">
+
+                <section id="fact">
+ 
+                    <h2 id="factContent"></h2>
+                    <span id="user">User comementary</span>
+            
+                </section>
+            </div>
+            
+            <form id="interaccionUsuario">
+                <button type="button" id="botonAdd" >Agregar</button> 
+              
+               
+                   
+                    <section id="agregarHechoPantalla">
+                     <p>Agrega!</p>
+                     <input type="text" placeholder="Fact" id="agregarHecho"><br>
+                     <input type="text" placeholder="Name" id="agregarName"><br>
+                 
+                     <input type="submit"  id="sendBoton" onclick="addFact()" />
+ 
+                </section>
+            
+            </form>
+        <footer>
+            <ul id="sub">
+                
+                <li>API buscada en: <a href="https://apilist.fun/" target="_blank">https://apilist.fun/</a></li>
+                <li>Iconos buscados en: <a href="https://icon-icons.com/es/" target="_blank">https://icon-icons.com/es/</a></li>
+                <li><a href="#"></a>Briasco Jazmín</li>
+                <li><a href="#"></a>Excoffon Florencia</a></li>
+            </ul>
+            
+        </footer>
+
+    </section>
+    <div id="contenedorFoto"></div>
+
+</body>
+</html>
